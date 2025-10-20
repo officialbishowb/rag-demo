@@ -4,7 +4,7 @@ using Microsoft.KernelMemory.MemoryDb.Qdrant;
 using System.Collections.ObjectModel;
 using Qdrant.Client;
 const string OllamaUrl = "http://localhost:11434";
-const string QdrantUrl = "http://localhost:11434";
+const string QdrantUrl = "http://localhost:6333";
 const string EmbeddingModel = "nomic-embed-text:latest";
 const string ChatModel = "gemma3:1b";
 const string IndexName = "dokumente";
